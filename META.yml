@@ -16,4 +16,4 @@ no_index:
 requires: 
   POE: 0.38
   Text::CSV_XS: 0.3
-version: 1.07
+version: 1.08
