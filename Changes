@@ -1,6 +1,9 @@
 POE::Filter::CSV_XS
 ===================
 
+1.10	Fri Mar  7 07:49:45 GMT 2008
+	- Kwalitee fixes.
+
 1.08	Fri Jan 18 15:58:08 GMT 2008
 	- Fixed test script naming
 

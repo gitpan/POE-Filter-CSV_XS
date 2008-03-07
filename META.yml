@@ -2,6 +2,8 @@
 abstract: A POE-based parser for CSV based files.
 author: 
   - Chris Williams <chris@bingosnet.co.uk>
+build_requires: 
+  Test::More: 0.47
 distribution_type: module
 generated_by: Module::Install version 0.68
 license: perl
@@ -15,5 +17,6 @@ no_index:
     - t
 requires: 
   POE: 0.38
+  POE::Filter: 0
   Text::CSV_XS: 0.3
-version: 1.08
+version: 1.10
