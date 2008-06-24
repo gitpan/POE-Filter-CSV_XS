@@ -13,7 +13,7 @@ use Text::CSV_XS;
 use vars qw($VERSION);
 use base qw(POE::Filter);
 
-$VERSION = '1.10';
+$VERSION = '1.12';
 
 sub new {
   my $class = shift;
@@ -127,6 +127,12 @@ Takes an arrayref containing arrays of fields and returns an arrayref containing
 =head1 AUTHOR
 
 Chris "BinGOs" Williams
+
+=head1 LICENSE
+
+Copyright (C) Chris Williams
+
+This module may be used, modified, and distributed under the same terms as Perl itself. Please see the license that came with your Perl distribution for details.
 
 =head1 SEE ALSO
 
